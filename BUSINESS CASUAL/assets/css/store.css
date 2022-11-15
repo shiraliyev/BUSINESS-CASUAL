@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+     background-image: linear-gradient(to right, transparent , rgba(0,4,0,.7)) ,linear-gradient(to left, transparent , rgba(0,4,0,.7)) ,url("../img/bg.jpg") ;
+    
+     background-attachment: fixed;
+
+      
+    }
+
+.header div h2{
+    color: #E6A756;
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 15vh;
+}
+.header div h1{
+    color: #fff;
+    text-align: center;
+    font-size: 14vh;
+    
+}
+
+.header nav {
+    background-color: rgba(49,24,15,0.8);
+}
+.header nav ul{
+  text-align: center;
+}
+.header nav ul li a {
+    text-decoration: none;
+    color: #BEAF9C;
+    transition: 0.7s;
+    
+}
+.header nav ul li a:hover{
+   
+    color: silver;
+
+   
+}
+.header nav ul li{
+    display: inline-block;
+    margin: 30px 30px; 
+    position: relative;
+}
+li::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    top: 15px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    transition: 0.8s;
+}
+li:hover::before{
+width: 100%;
+}
+
+.sec1{
+    background-color: rgba(211,152,79,0.95);
+    width: 100%;
+    
+    padding: 10% 20%;
+}
+.sec1 div {
+    background-color: #F6E1C5;
+    width: 60%;
+    height: 30vh ;
+    border-radius: 10px;
+    
+    
+    
+}
+.sec1 div h4 {
+              font-size: 4vh;
+              text-align: center;
+
+}
+.sec1 div h6 {
+             font-size: 10vh;
+             text-align: center;
+}
+.sec1 div p {
+               font-size: 2vh;
+               text-align: center;
+
+}
+
+.sec2{
+    margin: 15vh;
+}
+.sec2 img{
+    margin: 0% 5%;
+    width: 90%;
+    height: 70vh;
+}
+.sec2 div{
+    background-color: #F6E1C5 ;
+    width: 50% ;
+    height:30vh;
+    border-radius: 10px;
+    position:relative;
+    z-index: 1;
+    top: -40px;
+    left: 20%  ;
+    padding: 30px 50px;
+}
+
+.sec2 div h4{
+ font-size: 2vh ; 
+ color: #000;
+}
+.sec2 div h6{
+    font-size: 5vh ;    
+}
+.sec2 div p{
+    font-size: 2vh ;
+    padding-top: 5vh;      
+}
+
+
+footer{
+    background-color:  rgba(49,24,15,0.8) ;
+    color: #BEAF9C;
+    text-align: center;
+    padding: 50px;
+    margin-top: 5vh;
+}
